@@ -1,16 +1,16 @@
+import { RightArrow } from './rightArrow'
 import '../css/home.css'
-
 
 export const HomeFisrtPart = () => {
     return (
-        <section id='firstPart'>
+        <section id='firstPart' className='d-flex flex-column justify-content-center'>
             <div>
                 <p>Welcome to Businezz X</p>
                 <h1>Join us in growing your <span>business</span>.</h1>
             </div>
             <div>
                 <p>Elevate your business with Businezz X, a professional Webflow template</p>
-                <button className="btn-contact">Contact Us</button>
+                <button className="btn-contact mt-4 pe-3 py-3 fw-bold rounded-pill"><span className='pe-2'>Contact Us</span> <RightArrow/></button>
             </div>
         </section>
     )
@@ -28,7 +28,7 @@ export const HomeSecondPart = () => {
                     <input type="email" className="form-control"  placeholder='contact@email'/>
                    </div>
                     <textarea name="message" id="message" className="form-control  mb-3">Please type your message here...</textarea>
-                    <button className="btn-form">Get in Touch</button>
+                    <button className="btn-form rounded-2 p-3 fw-bold">Get in Touch</button>
                 </form>
             </div>
             

@@ -1,0 +1,44 @@
+/* Dropdpwn arrow */
+
+svg {
+    cursor: pointer;
+}
+
+#arrow-1,
+#arrow-2,
+.arrow-right-1,
+.arrow-right-2 {
+    transition: all 0.5s ease;
+}    
+
+#arrow-2 {
+    opacity: 0;
+    transform: translateY(-100%);
+} 
+
+svg:hover #arrow-1 {
+    transform: translateY(40%);
+    opacity: 0;
+}
+
+svg:hover #arrow-2 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Right arrow */
+
+.arrow-right-1 {
+    opacity: 0;
+    transform: translateX(-100%);
+} 
+
+svg:hover .arrow-right-2 {
+    transform: translateX(40%);
+    opacity: 0;
+}
+
+svg:hover .arrow-right-1 {
+    opacity: 1;
+    transform: translateX(0);
+}

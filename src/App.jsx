@@ -1,15 +1,12 @@
 import { Nav } from "./components/nav"
-import { HomeFisrtPart, HomeSecondPart } from "./components/homeComponents"
+import { Home } from "./pages/home"
 
 function App() {
 
   return (
     <>
       <Nav/>
-      <div className="d-flex flex-wrap">
-        <HomeFisrtPart/>
-        <HomeSecondPart/>
-      </div>
+      <Home/>
     </>
   )
 }

@@ -21,6 +21,28 @@
 
 
 nav ul a:hover {
-    color: #2596be;
+    color: #0795F9;
     transition: 0.5s ease;
+}
+
+nav a.navlink {
+    color: #022b41;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
+
+.link-change {
+    color: #0795F9 !important;
+}
+
+/* Animaciones */
+
+a.nav-link-active:hover svg #arrow-1 {
+    transform: translateY(40%);
+    opacity: 0;
+}
+
+a.nav-link-active:hover svg #arrow-2 {
+    opacity: 1;
+    transform: translateY(0);
 }
