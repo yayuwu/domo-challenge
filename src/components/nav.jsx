@@ -17,7 +17,7 @@ export const Nav = () => {
         setActiveLink(link)
     }
     return (
-        <nav className="navbar mx-lg-5">
+        <nav className="navbar px-lg-5 position-fixed bg-white w-100">
             <div className="container-fluid flex-nowrap">
                 <a className="navbar-brand border- border-custom" href="#"><img src={logo} alt="logo" className='w-50'/></a>
                 <button 
