@@ -62,15 +62,37 @@ section h1 {
     border: 2px solid #c2c2c27c;
 }
 
-.btn-contact {
-    border: 2px solid white;
-    background-color: white;
-    padding: 5px 25px;
+.btn-form {
+    position: relative;
+    overflow: hidden;
+    transition: color 0.4s ease; 
 }
 
-.btn-contact:hover {
-    color: #0795F9;
-    transition: 0.5s ease;
+.btn-contact span,
+.btn-form span {
+    position: relative;
+    z-index: 1;
+}
+
+.btn-form::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #022b41;
+    z-index: 1;
+    transition: left 0.4s ease; 
+}
+
+
+.btn-form:hover {
+    color: white; 
+}
+
+.btn-form:hover::before {
+    left: 0; 
 }
 
 .btn-form {
@@ -78,22 +100,34 @@ section h1 {
     background-color: white;
 }
 
-.btn-form:hover {
-    background-color: #022b41;
-    border-color: white;
-    color: white;
+.btn-contact {
+    border: none;
+    background-color: white;
+    padding: 5px 25px;
+    position: relative;
+    overflow: hidden;
+    color: #022b41;
+    transition: color 0.4s ease; 
 }
 
-/* Animations*/
-
-.btn-contact:hover svg .arrow-right-2 {
-    transform: translateX(40%);
-    opacity: 0;
+.btn-contact::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #2596be;
+    z-index: 0;
+    transition: left 0.4s ease; 
 }
 
-.btn-contact:hover svg .arrow-right-1 {
-    opacity: 1;
-    transform: translateX(0);
+.btn-contact:hover {
+    color: white; 
+}
+
+.btn-contact:hover::before {
+    left: 0; 
 }
 
 /*Responsive styles*/

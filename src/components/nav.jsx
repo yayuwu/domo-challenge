@@ -58,7 +58,7 @@ export const Nav = () => {
                             </li>
                     </ul>
                         <div>
-                            <button className="btn-consultation">Free Consultation</button>
+                            <button className="btn-consultation rounded-pill px-4 fw-bold bg-white"><span>Free Consultation</span></button>
                         </div>
                 </div>
             </div>
