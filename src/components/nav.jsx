@@ -17,7 +17,7 @@ export const Nav = () => {
         setActiveLink(link)
     }
     return (
-        <nav className="navbar px-lg-5 position-fixed bg-white w-100">
+        <nav className="navbar px-lg-5 py-3 position-fixed bg-white w-100">
             <div className="container-fluid flex-nowrap">
                 <a className="navbar-brand border- border-custom" href="#"><img src={logo} alt="logo" className='w-50'/></a>
                 <button 
@@ -53,7 +53,7 @@ export const Nav = () => {
                                     <a href="#" className="nav-link-active">Packages</a>
                                 </li>
                                 <li className="nav-item p-2">
-                                    <a href="#" className="nav-link-active">Contact</a>
+                                    <a href="#contact" className="nav-link-active">Contact</a>
                                 </li>
                             <li className="nav-item p-2">
                                     <a href="#" className="nav-link-active">Cart[0]</a>
@@ -95,7 +95,7 @@ export const Nav = () => {
                                 onClick={() => handleLinkClick('packages')}>Packages</a>
                             </li>
                             <li className="nav-link">
-                                <a href="#" 
+                                <a href="#contact" 
                                 className={`nav-link-active ${activeLink === 'contact' ? 'link-change' : ''}`} 
                                 onClick={() => handleLinkClick('contact')}>Contact</a>
                             </li>
@@ -105,9 +105,7 @@ export const Nav = () => {
                                 onClick={() => handleLinkClick('cart')}>Cart[0]</a>
                             </li>
                     </ul>
-                        <div>
-                            <button className="d-flex align-items-center btn-consultation rounded-pill px-4 fw-bold bg-white position-relative"><span className='me-2'>Free Consultation</span><RightArrow/></button>
-                        </div>
+                    <button className="d-flex align-items-center btn-consultation rounded-pill p-4 fw-bold bg-white position-relative"><span className='me-2'>Free Consultation</span><RightArrow/></button>
                 </div>
             </div>
         </nav>

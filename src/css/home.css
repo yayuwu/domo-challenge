@@ -1,6 +1,6 @@
 #firstPart {
     width: 100%;
-    height: 90vh;
+    height: 95vh;
     background-color: #022b41;
     background-image: radial-gradient(circle at bottom left, #02486e, transparent 50%);
     color: white;
@@ -30,7 +30,7 @@ section h1 {
 }
 
 #secondPart {
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     background-image: url('/form-background.jpg');
     background-repeat: no-repeat;

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { Nav } from "./components/nav"
 import { Home } from "./pages/home"
 import { LoadPage } from "./pages/load"
+import { Footer } from "./components/footer"
 
 function App() {
   const [loading, setLoading] = useState(true)
@@ -22,6 +23,7 @@ function App() {
       <div>
         <Nav />
         <Home />
+        <Footer />
       </div>
       {loading && <LoadPage isExiting={exit} />}
     </>

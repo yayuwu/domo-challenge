@@ -19,6 +19,7 @@ nav{
     width: 250px !important;
     overflow-y: auto;
     margin-top: 56px;
+    border-color: white !important;
 }
 
 .btn-consultation {

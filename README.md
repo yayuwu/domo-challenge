@@ -10,5 +10,6 @@ El desarrollo de esta página se realizó desde el punto de vista First Mobile, 
 - CSS 
 - Bootstrap
 
-## Referencias 
+## Dependencias y herramientas 
 - <https://jonsuh.com/hamburgers/>
+- <https://fontawesome.com/>
