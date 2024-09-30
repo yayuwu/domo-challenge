@@ -10,7 +10,7 @@ export const HomeFisrtPart = () => {
             </div>
             <div>
                 <p>Elevate your business with Businezz X, a professional Webflow template</p>
-                <button className="btn-contact mt-4 pe-3 py-3 fw-bold rounded-pill"><span className='pe-2'>Contact Us</span></button>
+                <button className="btn-contact mt-4 pe-3 py-3 fw-bold rounded-pill"><span className='me-2'>Contact Us</span><RightArrow/></button>
             </div>
         </section>
     )
