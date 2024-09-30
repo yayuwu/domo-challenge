@@ -4,7 +4,7 @@
     background-color: #022b41;
     background-image: radial-gradient(circle at bottom left, #02486e, transparent 50%);
     color: white;
-    padding: 80px;
+    padding: 40px;
 }
 
 #firstPart h1 > span {
@@ -131,6 +131,12 @@ section h1 {
 }
 
 /*Responsive styles*/
+
+@media (width >= 720px) {
+    #firstPart {
+        padding: 80px;
+    }
+}
 
 @media (width >= 992px) {
     #firstPart, 

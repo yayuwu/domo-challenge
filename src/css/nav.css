@@ -10,6 +10,12 @@
     padding-left: 10px;
 }
 
+.custom-offcanvas {
+    height: 100vh;
+    overflow-y: auto;
+    margin-top: 56px;
+}
+
 .btn-consultation {
     border: 2px solid #022b41;
     height: 35px;
@@ -58,6 +64,33 @@ nav a.navlink {
 .link-change {
     color: #0795F9 !important;
 }
+
+.menu-btn {
+    background-color: transparent;
+    border: none !important;                
+  }
+  
+.menu-btn:hover {
+    background-color: transparent;
+    border: none;                
+    box-shadow: none;             
+}
+  
+.menu-btn:focus {
+    outline: none;        
+    box-shadow: none;     
+}
+
+.menu-btn:focus, 
+.menu-btn:focus-visible {
+  outline: none !important;       
+  box-shadow: none !important;     
+}
+
+.navbar-toggler-icon {
+    border: none;                     
+    box-shadow: none;                 
+  }
 
 /* Animaciones */
 
