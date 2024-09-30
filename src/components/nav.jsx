@@ -34,24 +34,29 @@ export const Nav = () => {
                 <div className="offcanvas offcanvas-end custom-offcanvas" tabIndex="-1" id="offCanvasNavbar" aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="false">
                     <div className="offcanvas-body">
                         <ul className="navbar nav d-flex flex-column align-items-start">
-                        <li className="nav-link">
-                                <a href="#" className="nav-link-active pe-2">Home</a>
-                        </li>
-                        <li className="nav-link">
-                                <a href="#" className="nav-link-active pe-2">About</a>
-                        </li>
-                        <li className="nav-link">
-                            <a href="#" className="nav-link-active pe-2">Pages <DownArrow/></a>
-                        </li>
-                        <li className="nav-link">
-                                <a href="#" className="nav-link-active pe-2">Packages</a>
+                            <li className="nav-item p-2">
+                                    <a href="#" className="nav-link-active">Home</a>
                             </li>
-                            <li className="nav-link">
-                                <a href="#" className="nav-link-active pe-2">Contact</a>
+                            <li className="nav-item p-2">
+                                    <a href="#" className="nav-link-active">About</a>
                             </li>
-                        <li className="nav-link">
-                                <a href="#" className="nav-link-active pe-2">Cart[0]</a>
+                            <li className="nav-item dropdown p-2">
+                                    <a href="#" className="nav-link-active dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" role='button'>Pages <DownArrow/></a>
+                                    <ul className="dropdown-menu dropdown-nav position-relative">
+                                        <li><a className="dropdown-item fw-semibold" href="#">Page 1</a></li>
+                                        <li><a className="dropdown-item fw-semibold" href="#">Page 2</a></li>
+                                        <li><a className="dropdown-item fw-semibold" href="#">Page 3</a></li>
+                                    </ul>
                             </li>
+                            <li className="nav-item p-2">
+                                    <a href="#" className="nav-link-active">Packages</a>
+                                </li>
+                                <li className="nav-item p-2">
+                                    <a href="#" className="nav-link-active">Contact</a>
+                                </li>
+                            <li className="nav-item p-2">
+                                    <a href="#" className="nav-link-active">Cart[0]</a>
+                                </li>
                         </ul>
                     </div>
                 </div>
@@ -68,7 +73,15 @@ export const Nav = () => {
                                 onClick={() => handleLinkClick('about')}>About</a>
                         </li>
                         <li className="nav-link">
-                            <a href="#" className="nav-link-active pe-2">Pages <DownArrow/></a>
+                            <div className="dropdown">
+                                <a href="#" className="nav-link-active pe-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages <DownArrow/></a>
+                                <ul className="dropdown-menu">
+                                    <li><a className="dropdown-item" href="#">Page 1</a></li>
+                                    <li><a className="dropdown-item" href="#">Page 2</a></li>
+                                    <li><a className="dropdown-item" href="#">Page 3</a></li>
+                                </ul>
+                            </div>
+
                         </li>
                         <li className="nav-link">
                                 <a href="#" 

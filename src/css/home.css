@@ -62,6 +62,18 @@ section h1 {
     border: 2px solid #c2c2c27c;
 }
 
+input:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color:none !important; 
+}
+
+input::placeholder {
+    color: #022b41 !important;
+    opacity: 1 !important;  
+}
+
 .btn-form {
     position: relative;
     overflow: hidden;

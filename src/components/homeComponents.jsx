@@ -23,9 +23,9 @@ export const HomeSecondPart = () => {
                 <p>Book your free consultation</p>
                 <h2>Get a free consultation</h2>
                 <form action="" className='d-flex flex-column'>
-                   <div className='d-block d-md-flex my-3'>
-                    <input type="text" className="form-control" placeholder='Name'/>
-                    <input type="email" className="form-control"  placeholder='contact@email'/>
+                   <div className='d-flex my-3 column-gap-3 row-gap-3 flex-wrap flex-sm-nowrap'>
+                        <input type="text" className="form-control fw-semibold" placeholder='Name'/>
+                        <input type="email" className="form-control fw-semibold"  placeholder='contact@email'/>
                    </div>
                     <textarea name="message" id="message" className="form-control  mb-3">Please type your message here...</textarea>
                     <button className="btn-form rounded-2 p-3 fw-bold"><span>Get in Touch</span></button>
