@@ -76,9 +76,9 @@ export const Nav = () => {
                             <div className="dropdown">
                                 <a href="#" className="nav-link-active pe-2 dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Pages <DownArrow/></a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Page 1</a></li>
-                                    <li><a className="dropdown-item" href="#">Page 2</a></li>
-                                    <li><a className="dropdown-item" href="#">Page 3</a></li>
+                                    <li><a className="dropdown-item fw-semibold" href="#">Page 1</a></li>
+                                    <li><a className="dropdown-item fw-semibold" href="#">Page 2</a></li>
+                                    <li><a className="dropdown-item fw-semibold" href="#">Page 3</a></li>
                                 </ul>
                             </div>
 
