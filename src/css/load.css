@@ -1,0 +1,16 @@
+.load-container {
+    height: 100vh;
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    transition: transform 1s ease;
+}
+
+.load-container.animation-slide-out {
+    transform: translateX(-100%);
+}
+
