@@ -58,7 +58,7 @@ export const Nav = () => {
                             <li className="nav-item p-2">
                                     <a href="#" className="nav-link-active">Cart[0]</a>
                             </li>
-                            <li className="nav-item p-2 btn-consultation-container">
+                            <li className="nav-item p-2">
                                 <div>
                                     <button className="d-flex align-items-center btn-consultation rounded-pill px-4 fw-bold bg-white position-relative"><span className='me-2'>Free Consultation</span><RightArrow/></button>
                                 </div>
