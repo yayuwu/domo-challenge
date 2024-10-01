@@ -5,26 +5,7 @@ El desarrollo de esta página se realizó desde el punto de vista First Mobile, 
 ![Challenge imagen 4](./_ref/test-4.jpeg)
 
 ## Tecnologías utilizadas 
-<div style= "display: flex; align-items: center; gap: 1em;">
-<div style="background-color:#E34F26;color:white;padding:10px;border-radius:5px;width:60px;text-align:center;">
-  HTML
-</div>
-<div style="background-color:#2596be;color:white;padding:10px;border-radius:5px;width:60px;text-align:center;">
-  CSS
-</div>
-<div style="background-color:#F7DF1E;color:black;padding:10px;border-radius:5px;width:60px;text-align:center;">
-  JS
-</div>
-<div style="background-color:#7952B3;color:white;padding:10px;border-radius:5px;width:70px;text-align:center;">
-  Bootstrap
-</div>
- <div style="background-color:#61DAFB;color:white;padding:10px;border-radius:5px;width:60px;text-align:center;">
-  React
-</div>
-<div style="background-color:#FFD62E;color:black;padding:10px;border-radius:5px;width:60px;text-align:center;">
-  Vite
-</div>
-</div>
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Otras herramientas 
 - <https://jonsuh.com/hamburgers/>
@@ -37,4 +18,3 @@ El desarrollo de esta página se realizó desde el punto de vista First Mobile, 
 [![Ver animación](https://img.youtube.com/vi/lbMbLAuCwpI/0.jpg)](https://youtube.com/shorts/lbMbLAuCwpI)
 
 </div>
-
