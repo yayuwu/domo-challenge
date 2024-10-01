@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import logoWhite from '../../public/logo-white.svg'
+import logoWhite from '/logo-white.svg'
 
 import '../css/footer.css'
 
@@ -13,7 +13,7 @@ export const Footer = () => {
                 <div className='px-3 pt-3 d-flex justify-content-between flex-wrap'>
                     <div className='contact-text'>
                         <h3 className='mb-4'>¡Contáctame si te gustó!</h3>
-                        <p className='fw-light'>Espero que hayas disfrutado navegando e interactuando aquí tanto como yo lo hice. Me encantaría continuar desarrollando, ya que me quedé con ganas de más. Si te gustó mi trabajo, no dudes en contactarme.</p>
+                        <p className='fw-light'>Espero que hayas disfrutado navegando e interactuando con las animaciones tanto como yo lo hice. Te recomiendo que lo pruebes (si estás en computadora) también su versión mobile.</p>
                         <button className='rounded-pill py-2 my-2 px-5 fw-bold'><a href='https://drive.google.com/file/d/1rCvT8Ks41M0F6D2Ufp9ptRlBxlT6H0pC/view?usp=sharing' target='_blank'>CV</a></button>
                     </div>
                     <div>
