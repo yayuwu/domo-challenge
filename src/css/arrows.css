@@ -27,8 +27,15 @@ svg:hover #arrow-2 {
 /* Right arrow */
 
 .arrow-right {
-    position: relative;
-    z-index: 2;
     fill: #022B41;
-    transition: fill 0.3s ease;
+    transition: fill 0.5s ease;
+}
+
+svg.arrow-right {
+    position: relative;
+    z-index: 1;
+}
+
+svg.arrow-right:hover .arrow-path {
+    fill: white;
 }

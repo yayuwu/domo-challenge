@@ -14,7 +14,7 @@ export const Footer = () => {
                     <div className='contact-text'>
                         <h3 className='mb-4'>¡Contáctame si te gustó!</h3>
                         <p className='fw-light'>Espero que hayas disfrutado navegando e interactuando aquí tanto como yo lo hice. Me encantaría continuar desarrollando, ya que me quedé con ganas de más. Si te gustó mi trabajo, no dudes en contactarme.</p>
-                        <button className='rounded-pill py-2 my-2 px-5 fw-bold'><a href='https://wa.me/5491170897175?text=Hola%20Yael,%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20tu%20trabajo.' target='_blank'>CV</a></button>
+                        <button className='rounded-pill py-2 my-2 px-5 fw-bold'><a href='https://drive.google.com/file/d/1rCvT8Ks41M0F6D2Ufp9ptRlBxlT6H0pC/view?usp=sharing' target='_blank'>CV</a></button>
                     </div>
                     <div>
                         <img src={logoWhite} alt="logo white" id='logo-white' className='pt-4 pb-2'/>

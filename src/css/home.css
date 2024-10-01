@@ -83,7 +83,7 @@ input::placeholder {
 .btn-contact span,
 .btn-form span {
     position: relative;
-    z-index: 1;
+    z-index:    1;
 }
 
 .btn-form::before {
@@ -136,6 +136,10 @@ input::placeholder {
 
 .btn-contact:hover {
     color: white; 
+}
+
+.btn-contact:hover .arrow-path{
+    fill: white !important; /* Cambia a blanco en el hover */
 }
 
 .btn-contact:hover::before {
